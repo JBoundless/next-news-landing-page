@@ -43,6 +43,7 @@ li {
 }
 .sign-up-form {
   width: 1080px;
+  float: right;
   margin: auto;
   padding-top: 50px;
   color: white;
