@@ -67,3 +67,38 @@ li {
 .android-app-store-btn:hover {
   cursor: pointer;
 }
+
+.accordion {
+      background-color: #000080;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+  background-color: #ccc;
+}
+  
+  .panel {
+  padding: 0 18px;
+  background-color: #000061;
+  color: gold;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+  }
