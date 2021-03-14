@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<script src="accordion.js"></script>
+<style>
+  body {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .accordion {
+      background-color: #000080;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+  background-color: #ccc;
+}
+  
+  .panel {
+  padding: 0 18px;
+  background-color: #000061;
+  color: gold;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+  }
+</style>
+  <h2>Frequently Asked Questions</h2>
+  <button class="accordion">How do I upgrade my plan?</button>
+  <div class="panel">
+    <p>Go to Plans > Upgrade, then select a new plan and enter the required information.</p>
+  </div>
+  
+    <button class="accordion">Can I cancel anytime?</button>
+  <div class="panel">
+    <p>Yes. Simply go to Profile > Settings > Unsubscribe</p>
+  </div>
+  
+    <button class="accordion">If I'm subscribed to ESPN+ or The Athletic, will my plan be integrated?</button>
+  <div class="panel">
+    <p>Yes, ESPN+ and The Athletic subscribers receive a 25% discount for the plans that include them.</p>
+  </div>
+  
+    <button class="accordion">How do I gain access to the guest speaker events?</button>
+  <div class="panel">
+    <p>Follow us on social media to get updates about guest speakers. As far as attending, go to "Guest Speakers (Premium Only)" and select the event you'd like to register for.</p>
+  </div>
