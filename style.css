@@ -3,6 +3,7 @@ body {
   background-color: black;
   color: white;
   line-height: 1.5;
+  font-family: 'Shippori Mincho B1', serif;
 }
 .header {
   text-align: center;
