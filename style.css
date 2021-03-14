@@ -68,6 +68,12 @@ li {
   cursor: pointer;
 }
 
+.faq-accordion {
+  margin: auto;
+  background-color: black;
+  color: gold;
+}
+
 .accordion {
       background-color: #000080;
   color: white;
